@@ -5,7 +5,11 @@ This project is implemented and maintained as a **single Google Colab notebook**
 The notebook contains the complete pipeline, including data collection, indexing, retrieval, response generation, evaluation, and reporting.
 
 ---
+## Project Architecture 
 
+<p align="center"><img src="media/architecture.png" width="100%"></p>
+
+---
 ## 1. Project Overview
 
 This notebook implements a **Hybrid RAG system** that combines:
@@ -94,6 +98,8 @@ The notebook is organized into clearly labeled sections and should be run top to
 
 Gradio-based interactive UI
 Displays:
+
+<p align="center"><img src="media/Ui_Gradio.png" width="100%"></p>
 
 - User query
 - Generated answer
