@@ -1,15 +1,4 @@
 # Hybrid Retrieval-Augmented Generation (RAG) System  
-### Group ID: 125
-### Group Members Name with Student ID:
-
-| BITS ID     | Name                         | Contribution |
-|-------------|----------------------------- |--------------|
-| **2024AA05346** | **Tamilselvan S**              |     100%     |
-| **2024AB05320** | **Mathi Yuvarajan T K**            |     100%     |
-| **2024aa05279** | **Bhartendu Kumar**                 |     100%     |
-| **2024aa05198** | **Rakesh Jha**          |     100%     |
-| **2024aa05957** | **Shripad Prakash Kelapure**                   |     100%     |
-
 
 This project is implemented and maintained as a **single Google Colab notebook**. 
 
@@ -20,7 +9,7 @@ The notebook contains the complete pipeline, including data collection, indexing
 ## 1. Project Overview
 
 This notebook implements a **Hybrid RAG system** that combines:
-- Dense semantic retrieval (FAISS + sentence embeddings)
+- Dense semantic retrieval (Meta FAISS Opensource + sentence embeddings)
 - Sparse keyword retrieval (BM25)
 - Reciprocal Rank Fusion (RRF)
 - Open-source LLM-based answer generation
@@ -168,3 +157,6 @@ For smooth execution:
 1. Wikipedia for the knowledge corpus
 2. FAISS, Sentence-Transformers, HuggingFace Transformers
 3. Research on Retrieval-Augmented Generation and Hybrid Retrieval
+
+# Author : 
+- Mathi Yuvarajan T.k
