@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Why is Information retrieval important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "type": "inferential"
+    },
+    {
+      "id": 2,
+      "question": "What is the difference between Deep learning and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "type": "comparative"
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between Backpropagation and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Backpropagation",
+      "type": "comparative"
+    },
+    {
+      "id": 4,
+      "question": "What is Support vector machine?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "factual"
+    },
+    {
+      "id": 5,
+      "question": "What is Natural language processing?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "factual"
+    },
+    {
+      "id": 6,
+      "question": "What is FAISS?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/FAISS",
+      "type": "factual"
+    },
+    {
+      "id": 7,
+      "question": "What is Principal component analysis?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "factual"
+    },
+    {
+      "id": 8,
+      "question": "What problem does Neural network aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Neural_network",
+      "type": "conceptual"
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between Computer vision and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "comparative"
+    },
+    {
+      "id": 10,
+      "question": "What is the difference between Principal component analysis and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "comparative"
+    },
+    {
+      "id": 11,
+      "question": "Why is Retrieval-augmented generation important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "inferential"
+    },
+    {
+      "id": 12,
+      "question": "Why is Natural language processing widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "inferential"
+    },
+    {
+      "id": 13,
+      "question": "Explain the concept of Gradient descent.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "conceptual"
+    },
+    {
+      "id": 14,
+      "question": "What problem does Computer vision aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "conceptual"
+    },
+    {
+      "id": 15,
+      "question": "How does Transformer model differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning)",
+      "type": "comparative"
+    },
+    {
+      "id": 16,
+      "question": "Why is Retrieval-augmented generation important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "inferential"
+    },
+    {
+      "id": 17,
+      "question": "Why is Gradient descent widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "inferential"
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of Retrieval-augmented generation?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "factual"
+    },
+    {
+      "id": 19,
+      "question": "Why is Backpropagation widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Backpropagation",
+      "type": "inferential"
+    },
+    {
+      "id": 20,
+      "question": "Explain the concept of Support vector machine.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "conceptual"
+    },
+    {
+      "id": 21,
+      "question": "What problem does Machine learning aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "type": "conceptual"
+    },
+    {
+      "id": 22,
+      "question": "Explain the concept of Artificial intelligence.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "type": "conceptual"
+    },
+    {
+      "id": 23,
+      "question": "Why is Natural language processing important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "inferential"
+    },
+    {
+      "id": 24,
+      "question": "Explain the concept of Gradient descent.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "conceptual"
+    },
+    {
+      "id": 25,
+      "question": "What is the difference between Principal component analysis and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "comparative"
+    },
+    {
+      "id": 26,
+      "question": "Why is Neural network widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Neural_network",
+      "type": "inferential"
+    },
+    {
+      "id": 27,
+      "question": "How does Transformer model improve system performance?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning)",
+      "type": "inferential"
+    },
+    {
+      "id": 28,
+      "question": "What is Retrieval-augmented generation?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "factual"
+    },
+    {
+      "id": 29,
+      "question": "Why is Natural language processing widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "inferential"
+    },
+    {
+      "id": 30,
+      "question": "What is the difference between Machine learning and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "type": "comparative"
+    },
+    {
+      "id": 31,
+      "question": "Why is FAISS widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/FAISS",
+      "type": "inferential"
+    },
+    {
+      "id": 32,
+      "question": "Explain the concept of Natural language processing.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "conceptual"
+    },
+    {
+      "id": 33,
+      "question": "How does Retrieval-augmented generation improve system performance?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "inferential"
+    },
+    {
+      "id": 34,
+      "question": "What is Principal component analysis?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "factual"
+    },
+    {
+      "id": 35,
+      "question": "What problem does FAISS aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/FAISS",
+      "type": "conceptual"
+    },
+    {
+      "id": 36,
+      "question": "What problem does Gradient descent aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "conceptual"
+    },
+    {
+      "id": 37,
+      "question": "What is Computer vision?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "factual"
+    },
+    {
+      "id": 38,
+      "question": "Why is Support vector machine widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "inferential"
+    },
+    {
+      "id": 39,
+      "question": "Why is Principal component analysis important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "inferential"
+    },
+    {
+      "id": 40,
+      "question": "What problem does Neural network aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Neural_network",
+      "type": "conceptual"
+    },
+    {
+      "id": 41,
+      "question": "Explain the concept of Retrieval-augmented generation.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "conceptual"
+    },
+    {
+      "id": 42,
+      "question": "Explain the concept of Retrieval-augmented generation.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "conceptual"
+    },
+    {
+      "id": 43,
+      "question": "What problem does Principal component analysis aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "conceptual"
+    },
+    {
+      "id": 44,
+      "question": "What are the main components of Computer vision?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "factual"
+    },
+    {
+      "id": 45,
+      "question": "Explain the concept of Principal component analysis.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "conceptual"
+    },
+    {
+      "id": 46,
+      "question": "What is the difference between Principal component analysis and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "comparative"
+    },
+    {
+      "id": 47,
+      "question": "What problem does Computer vision aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "conceptual"
+    },
+    {
+      "id": 48,
+      "question": "How does Computer vision differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "comparative"
+    },
+    {
+      "id": 49,
+      "question": "What is the purpose of Deep learning?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "type": "factual"
+    },
+    {
+      "id": 50,
+      "question": "Why is Artificial intelligence important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "type": "inferential"
+    },
+    {
+      "id": 51,
+      "question": "Explain the concept of Support vector machine.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "conceptual"
+    },
+    {
+      "id": 52,
+      "question": "Why is Transformer model important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning)",
+      "type": "inferential"
+    },
+    {
+      "id": 53,
+      "question": "How does Gradient descent improve system performance?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "inferential"
+    },
+    {
+      "id": 54,
+      "question": "What is the purpose of Natural language processing?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "factual"
+    },
+    {
+      "id": 55,
+      "question": "What problem does Deep learning aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "type": "conceptual"
+    },
+    {
+      "id": 56,
+      "question": "What are the main components of Deep learning?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "type": "factual"
+    },
+    {
+      "id": 57,
+      "question": "Explain the concept of Natural language processing.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "conceptual"
+    },
+    {
+      "id": 58,
+      "question": "Why is Natural language processing widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "inferential"
+    },
+    {
+      "id": 59,
+      "question": "Why is Deep learning important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "type": "inferential"
+    },
+    {
+      "id": 60,
+      "question": "How does Principal component analysis improve system performance?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "inferential"
+    },
+    {
+      "id": 61,
+      "question": "How does BM25 differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+      "type": "comparative"
+    },
+    {
+      "id": 62,
+      "question": "Why is Gradient descent widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "inferential"
+    },
+    {
+      "id": 63,
+      "question": "How does FAISS differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/FAISS",
+      "type": "comparative"
+    },
+    {
+      "id": 64,
+      "question": "What is Machine learning?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "type": "factual"
+    },
+    {
+      "id": 65,
+      "question": "Why is Machine learning important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "type": "inferential"
+    },
+    {
+      "id": 66,
+      "question": "What is the difference between Gradient descent and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "comparative"
+    },
+    {
+      "id": 67,
+      "question": "Explain the concept of Support vector machine.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "conceptual"
+    },
+    {
+      "id": 68,
+      "question": "Why is Principal component analysis widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+      "type": "inferential"
+    },
+    {
+      "id": 69,
+      "question": "What is Natural language processing?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "factual"
+    },
+    {
+      "id": 70,
+      "question": "What is the difference between Support vector machine and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "comparative"
+    },
+    {
+      "id": 71,
+      "question": "What problem does Gradient descent aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "conceptual"
+    },
+    {
+      "id": 72,
+      "question": "Why is Retrieval-augmented generation widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "type": "inferential"
+    },
+    {
+      "id": 73,
+      "question": "What problem does Gradient descent aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "conceptual"
+    },
+    {
+      "id": 74,
+      "question": "What is the difference between Deep learning and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "type": "comparative"
+    },
+    {
+      "id": 75,
+      "question": "What problem does Backpropagation aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Backpropagation",
+      "type": "conceptual"
+    },
+    {
+      "id": 76,
+      "question": "How does Computer vision improve system performance?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "inferential"
+    },
+    {
+      "id": 77,
+      "question": "Explain the concept of BM25.",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+      "type": "conceptual"
+    },
+    {
+      "id": 78,
+      "question": "What are the main components of FAISS?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/FAISS",
+      "type": "factual"
+    },
+    {
+      "id": 79,
+      "question": "What problem does BM25 aim to solve?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+      "type": "conceptual"
+    },
+    {
+      "id": 80,
+      "question": "Why is BM25 important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+      "type": "inferential"
+    },
+    {
+      "id": 81,
+      "question": "How does Natural language processing differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "comparative"
+    },
+    {
+      "id": 82,
+      "question": "Why is Gradient descent widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "inferential"
+    },
+    {
+      "id": 83,
+      "question": "What is the difference between BM25 and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+      "type": "comparative"
+    },
+    {
+      "id": 84,
+      "question": "What is the difference between Support vector machine and similar methods?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "comparative"
+    },
+    {
+      "id": 85,
+      "question": "What is the purpose of Support vector machine?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "factual"
+    },
+    {
+      "id": 86,
+      "question": "How does Backpropagation improve system performance?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Backpropagation",
+      "type": "inferential"
+    },
+    {
+      "id": 87,
+      "question": "What are the main components of Information retrieval?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "type": "factual"
+    },
+    {
+      "id": 88,
+      "question": "What are the main components of Information retrieval?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "type": "factual"
+    },
+    {
+      "id": 89,
+      "question": "How does FAISS improve system performance?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/FAISS",
+      "type": "inferential"
+    },
+    {
+      "id": 90,
+      "question": "What are the main components of Machine learning?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "type": "factual"
+    },
+    {
+      "id": 91,
+      "question": "What is Backpropagation?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Backpropagation",
+      "type": "factual"
+    },
+    {
+      "id": 92,
+      "question": "What is the purpose of BM25?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+      "type": "factual"
+    },
+    {
+      "id": 93,
+      "question": "Why is BM25 widely used?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+      "type": "inferential"
+    },
+    {
+      "id": 94,
+      "question": "Why is Neural network important?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Neural_network",
+      "type": "inferential"
+    },
+    {
+      "id": 95,
+      "question": "How does Support vector machine differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+      "type": "comparative"
+    },
+    {
+      "id": 96,
+      "question": "How does Computer vision differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "type": "comparative"
+    },
+    {
+      "id": 97,
+      "question": "How does Transformer model differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning)",
+      "type": "comparative"
+    },
+    {
+      "id": 98,
+      "question": "What are the main components of FAISS?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/FAISS",
+      "type": "factual"
+    },
+    {
+      "id": 99,
+      "question": "How does Natural language processing differ from related approaches?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "type": "comparative"
+    },
+    {
+      "id": 100,
+      "question": "What is Gradient descent?",
+      "ground_truth_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "factual"
+    }
+  ]
+}
